@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Personality Color Quiz</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Personality Color Quiz</h1>
+        <form id="quiz-form">
+            <div class="question">
+                <p>1. What is your hair color?</p>
+                <label><input type="radio" name="hair" value="blonde"> Blonde</label><br>
+                <label><input type="radio" name="hair" value="brown"> Brown</label><br>
+                <label><input type="radio" name="hair" value="black"> Black</label><br>
+                <label><input type="radio" name="hair" value="red"> Red</label><br>
+            </div>
+            <div class="question">
+                <p>2. What is your eye color?</p>
+                <label><input type="radio" name="eyes" value="blue"> Blue</label><br>
+                <label><input type="radio" name="eyes" value="green"> Green</label><br>
+                <label><input type="radio" name="eyes" value="brown"> Brown</label><br>
+                <label><input type="radio" name="eyes" value="hazel"> Hazel</label><br>
+            </div>
+            <div class="question">
+                <p>3. What is your age group?</p>
+                <label><input type="radio" name="age" value="teen"> 13-19</label><br>
+                <label><input type="radio" name="age" value="twenty"> 20-29</label><br>
+                <label><input type="radio" name="age" value="thirty"> 30-39</label><br>
+                <label><input type="radio" name="age" value="forty"> 40+</label><br>
+            </div>
+            <div class="question">
+                <p>4. What is your zodiac sign?</p>
+                <label><input type="radio" name="zodiac" value="fire"> Fire (Aries, Leo, Sagittarius)</label><br>
+                <label><input type="radio" name="zodiac" value="earth"> Earth (Taurus, Virgo, Capricorn)</label><br>
+                <label><input type="radio" name="zodiac" value="air"> Air (Gemini, Libra, Aquarius)</label><br>
+                <label><input type="radio" name="zodiac" value="water"> Water (Cancer, Scorpio, Pisces)</label><br>
+            </div>
+            <div class="question">
+                <p>5. Are you a night or day person?</p>
+                <label><input type="radio" name="time" value="night"> Night</label><br>
+                <label><input type="radio" name="time" value="day"> Day</label><br>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
